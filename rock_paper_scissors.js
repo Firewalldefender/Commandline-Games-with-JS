@@ -10,6 +10,10 @@ const arg = process.argv[2];
 
 console.log("Your Choice:", process.argv[2]);
 
+const com_arg = valid_arg[Math.floor(Math.random(0, 2) * 3)];
+
+console.log(com_arg);
+
 const game = {
   rock: "scissors",
   scissors: "paper",
